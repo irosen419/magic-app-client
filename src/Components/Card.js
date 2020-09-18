@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Card.css'
 function Card(props) {
     return (
-        <div>
+        <div className="card">
             <img alt="" src={props.card.imageUrl} />
-            <h2>{props.card.name}</h2>
+            <p>{props.card.name}</p>
         </div >
     )
 }
